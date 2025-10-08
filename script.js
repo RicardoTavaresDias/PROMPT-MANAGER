@@ -137,7 +137,7 @@ function renderList (filterText = "") {
 }
 
 function newPrompt () {
-  state,selectedId = null
+  state.selectedId = null
   elements.promptTitle.textContent = ""
   elements.promptContent.textContent = ""
   updateAllEditableStates()
